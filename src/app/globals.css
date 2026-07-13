@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-pure-white text-deep-onyx font-sans antialiased selection:bg-deep-onyx selection:text-pure-white;
+  }
+}
+
+@layer utilities {
+  .hover-transition {
+    @apply transition-all duration-300 ease-out;
+  }
+}
