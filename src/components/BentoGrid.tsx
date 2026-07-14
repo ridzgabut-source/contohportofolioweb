@@ -96,7 +96,7 @@ export default function BentoGrid() {
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, margin: "-100px" }}
+          viewport={{ once: true }}
           className="grid grid-cols-1 md:grid-cols-4 gap-4 auto-rows-[250px]"
         >
           {bentoItems.map((item, index) => (
